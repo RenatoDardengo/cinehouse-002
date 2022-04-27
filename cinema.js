@@ -12,11 +12,13 @@ function listarTodosOsFilmes(filmes) {
 }
 
  function listarFilmesEmCartaz(filmes){
-  const filmesEmCartaz = filmes.filter((filme)=>{
-    if (filme.emCartaz===true){
-      return true;
-    }
-  })
+   return filmes.filter((filme)=> filme.emCartaz);
+  // const filmesEmCartaz = filmes.filter((filme)=>{
+  //   if (filme.emCartaz===true){
+  //     return true;
+  //   }
+  // });
+  //return filmesEmCartaz;
 
 
   }
